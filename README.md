@@ -29,7 +29,7 @@ world-cup-prediction/
 │   ├── teams_form.csv               # recent form per team
 │   └── teams_match_features.csv     # main match dataset with engineered features
 └── notebooks/
-    └── prediccion_mundial.ipynb     # notebook with the full analysis and models
+    └── world-cup-prediction.ipynb     # notebook with the full analysis and models
 ```
 
 ## How to Run It
@@ -45,7 +45,7 @@ world-cup-prediction/
    ```
 3. Open the notebook:
    ```bash
-   jupyter notebook notebooks/prediccion_mundial.ipynb
+   jupyter notebook notebooks/world-cup-prediction.ipynb
    ```
    The notebook expects the CSVs inside the `data/` folder (relative path from wherever you run it).
 
